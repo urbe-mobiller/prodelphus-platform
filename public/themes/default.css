@@ -1,0 +1,168 @@
+:root {
+    --primary: rgba(255, 255, 255, 0.5);
+    --secondary: #e8e8e8;
+    --third: #FFFFFF;
+    --fourth: #495464;
+    --homeBackGroundGradientShadowOverlay: rgba(0, 0, 0, 0.8) 100%;
+    --homeOverlay: #000000;
+    --homeButtonFocus: #000000;
+    --homeContentLine: red;
+    --homeSocial_a: white;
+    --homeSocial_span: red;
+    --bodyBackground: #111111;
+    --bodyTextColor: #757575;
+    --aTextTag: #0087cc;
+    --aActiveText: red;
+    --h6Text: #000000;
+    --pLeadText: #000000;
+    --blockquoteBefore: rgba(0, 0, 0, 0.25);
+    --blockquotePText: #111111;
+    --blockquoteCiteAVisited: #828282;
+    --abbrText: #828282;
+    --pre: #f1f1f1;
+    --codeBackground: #f1f1f1;
+    --codeBorder: #e1e1e1;
+    --markBackground: #ffd900;
+    --markColor: #000000;
+    --hrBorder: rgba(0, 0, 0, 0.1);
+    --liBeforeBackground: red;
+    --dtColor: red;
+    --textWhite: rgba(255, 255, 255, 0.8);
+    --tdBorder-Bottom: #e8e8e8;
+    --thTextColor: #000000;
+    --paceProgress: red;
+    --preloaderBackground: #050505;
+    --lineScalePulseOutDiv: red;
+    --formsSelect: #333333;
+    --formsSelectBorderBottom: rgba(0, 0, 0, 0.15);
+    --clCustomSelectAfterBorderBottom: rgba(0, 0, 0, 0.5);
+    --clCustomSelectAfterBorderRight: rgba(0, 0, 0, 0.5);
+    --selectFocus: #000000;
+    --selectFocusBorderBottom: black;
+    --legendText: #000000;
+    --webkitInputPlaceholder: #828282;
+    --select-webkit-auto-fill-focus: red;
+    --input-button-color: #000000;
+    --input-button-bg-and-border: #c5c5c5;
+    --input-button-focus-color: #000000;
+    --input-button-focus-bg-and-border: #b8b8b8;
+    --input-btn-primary-bg: red;
+    --input-btn-primary-border: red;
+    --input-btn-primary-text-color: #bbbfca;
+    --input-btn-primary-focus-bg: #33a242;
+    --input-btn-primary-focus-border: #33a242;
+    --button-btn-stroke-border: red;
+    --button-btn-stroke-color: red;
+    --button-btn-stroke-hover-border: #000000;
+    --button-btn-stroke-hover-color: #000000;
+    --alert-box-bg-color-error: #ffd1d2;
+    --alert-box-text-color-error: #e65153;
+    --alert-box-bg-color-success: #c8e675;
+    --alert-box-text-color-success: #758c36;
+    --alert-box-bg-color-info: #d7ecfb;
+    --alert-box-text-color-info: #4a95cc;
+    --alert-box-bg-color-notice: #fff099;
+    --alert-box-text-color-notice: #bba31b;
+    --drop-cap-bg-color: transparent;
+    --drop-cap-text-color: #000000;
+    --pull-quote-after-color: rgba(0, 0, 0, 0.25);
+    --stats-tabs-li-border-right: rgba(0, 0, 0, 0.1);
+    --stats-tabs-li-a: #000000;
+    --stats-tabs-li-a-hover: red;
+    --stats-tabs-li-a-em: #828282;
+    --skill-bars-li: #c9c9c9;
+    --skill-bars-li-strong: #000000;
+    --skill-bars-li-progress: #000000;
+    --skill-bars-li-progress-span: #000000;
+    --skill-bars-li-progress-span-after: #000000;
+    --display-1-color: #000000;
+    --display-2-color: #000000;
+    --display-2-light-color: #bbbfca;
+    --subhead-color: red;
+    --subhead-dark-color: #000000;
+    --section-header-has-bottom-sep-before-bg-color: rgba(0, 0, 0, 0.1);
+    --section-header-has-bottom-sep-light-sep-before-bg-color: rgba(
+        255,
+        255,
+        255,
+        0.05
+    );
+    --slick-slider-slick-dots-li-button-bg: #959595;
+    --slick-slider-slick-dots-li-hover-button-bg: red;
+    --header-nav-bg: #0c0c0c;
+    --header-nav-color: rgba(255, 255, 255, 0.25);
+    --header-nav-a-active-color: white;
+    --header-nav-h3-color: red;
+    --header-nav-list-a-visited-color: #bbbfca;
+    --header-nav-social-li-a-color: rgba(255, 255, 255, 0.15);
+    --header-nav-social-li-a-focus-color: white;
+    --header-nav-close-bg-color: rgba(0, 0, 0, 0.3);
+    --header-nav-close-span-after-bg-color: #bbbfca;
+    --header-menu-toggle-color: red;
+    --header-menu-toggle-opaque-bg-color: #000000;
+    --header-menu-toggleopaque-header-menu-text-bg-color: #000000;
+    --header-menu-toggle-focus-color: #bbbfca;
+    --header-menu-icon-bg-color: white;
+    --s-home-overlay: #000000;
+    --home-content-scroll-a-before-border-bottom: red;
+    --home-content-scroll-a-before-border-right: red;
+    --s-about-bg-color: red;
+    --s-about-color: #010507;
+    --s-about-section-header-has-bottom-sep-before-bg-color: rgba(
+        255,
+        255,
+        255,
+        0.25
+    );
+    --stats-col-border-right: rgba(255, 255, 255, 0.25);
+    --stats-h5-text: #000000;
+    --stats-col-nth-child: rgba(255, 255, 255, 0.25);
+    --stats-col-after-bg-color: rgba(255, 255, 255, 0.25);
+    --services-list-service-icon: red;
+    --s-works-intro-wrap: #111111;
+    --item-folio-thumb-a-before-bg-color: rgba(0, 0, 0, 0.8);
+    --item-folio-thumb-a-after: rgba(255, 255, 255, 0.8);
+    --item-folio-project-link-before-bg-color: rgba(255, 255, 255, 0.1);
+    --item-folio-project-link-active-bg-color: #bbbfca;
+    --item-folio-project-link-active-color: #000000;
+    --s-clients-bg-color: #e6e6e6;
+    --s-clients-color: #757575;
+    --clients-testimonials-before-bg-color: rgba(0, 0, 0, 0.1);
+    --clients-testimonials-testimonials-p-color: #555555;
+    --clients-testimonials-testimonials-name-color: #000000;
+    --s-contact-bg-color: #151515;
+    --s-contact-overlay-bg-color: #151515;
+    --s-contact-form-field-label-bg-color: red;
+    --s-contact-form-field-label-color: #bbbfca;
+    --s-contact-form-field-label-border-right: red;
+    --contact-line-bg-color: red;
+    --contact-content-h5-text-color: red;
+    --contact-content-select-color: rgba(255, 255, 255, 0.6);
+    --contact-content-select-border-bottom: rgba(255, 255, 255, 0.07);
+    --contact-content-select-focus-border-bottom: red;
+    --contact-content-select-focus-color: #bbbfca;
+    --contact-content-textarea-webkit-input-placeholder: #4f4f4f;
+    --contact-secondary-before-bg-color: #121212;
+    --contact-social-li-a-focus-color: red;
+    --message-success-bg: #111111;
+    --message-warning-color: #ff6163;
+    --message-success-color: red;
+    --submit-loader-text-loader-color: #bbbfca;
+    --s-loader-div-bg-color: #bbbfca;
+    --footer-text-color: rgba(255, 255, 255, 0.3);
+    --footer-h4-text-color: #bbbfca;
+    --footer-a-text-color: #bbbfca;
+    --footer-a-active-text-color: red;
+    --footer-subscribe-mc-form-input-email-bg: rgba(0, 0, 0, 0.1);
+    --footer-subscribe-mc-form-input-focus: #bbbfca;
+    --footer-subscribe-mc-form-input-webkit-input-placeholder: rgba(
+        255,
+        255,
+        255,
+        0.2
+    );
+    --footer-subscribe-mc-form-input-bg: red;
+    --footer-subscribe-mc-form-input-border-color: red;
+    --footer-bottom-copyright-span-after: rgba(255, 255, 255, 0.05);
+    --go-top-a-visited-bg: black;
+}

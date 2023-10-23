@@ -1,0 +1,66 @@
+.simulators {
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+}
+
+.simulators .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 144px;
+}
+
+.simulators .item:nth-last-child() {
+    margin-bottom: 16px;
+}
+
+.simulators .item.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.simulators .item .image {
+    display: flex;
+    flex: 1 0 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.simulators .item .image img {
+    width: 50%;
+    object-fit: contain;
+    transition: ease-in-out 500ms all;
+}
+
+.simulators .item .image img:hover {
+    scale: 1.3;
+    cursor: pointer;
+}
+
+.simulators .item .content {
+    display: flex;
+    flex: 1 0 320px;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+    .simulators .item:nth-last-child(1) {
+        margin-bottom: 0px;
+    }
+
+    .simulators .item .image,
+    .simulators .item .content {
+        flex: 1 0 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}

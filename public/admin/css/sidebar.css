@@ -1,0 +1,26 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 100vh;
+    overflow: hidden !important;
+    background-color: var(--white);
+    border-right: 1px solid var(--gray);
+}
+
+.sidebar .profile {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light);
+    margin: 16px 16px 0px 16px;
+    border-radius: 8px;
+}
+
+.sidebar .menu {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
